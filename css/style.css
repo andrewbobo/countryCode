@@ -1,0 +1,19 @@
+#myButton {
+  background: grey;
+  padding: 25px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.resizehandle {
+  background: transparent url("http://www.jquery.info/images/resizer.png")
+    no-repeat scroll 45%;
+  cursor: s-resize;
+  font-size: 0.1em;
+  height: 16px;
+  width: 100%;
+}
+
+[hidden] {
+  display: none;
+}
