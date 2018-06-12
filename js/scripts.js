@@ -16,3 +16,7 @@ $.getJSON("http://freegeoip.net/json/", function(data) {
 
   console.log(viewlink);
 });
+// результат будет виден в консоли
+for (var i = 0; i < 5; i++) {
+  console.log("значение", i);
+}
