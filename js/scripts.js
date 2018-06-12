@@ -11,14 +11,8 @@ $.getJSON("http://freegeoip.net/json/", function(data) {
   console.log(links);
   console.log(countryCode);
 
-  var viewLInk = document.querySelector("#link");
-  if (countryCode == "UA") {
-    viewLInk.href = "https:google.ru";
-  } else if (countryCode == "USA") {
-    viewlink.href = "https:google.com";
-  } else if (countryCode == "DE") {
-    viewlink.href = "https://www.google.de";
-  } else if (countryCode == "RU") {
-    viewlink.href = "https://www.google.";
-  }
+  var viewlink = document.querySelector("#link");
+  viewlink.href = links[countryCode];
+
+  console.log(viewlink);
 });

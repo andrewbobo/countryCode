@@ -17,3 +17,22 @@
 [hidden] {
   display: none;
 }
+
+.container_article {
+  width: 100%;
+  height: 300px;
+  background: grey;
+}
+
+.site-width {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section_article {
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  float: left;
+  background: red;
+}
